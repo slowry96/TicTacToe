@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TicTacToeGame()
+comment0.text=\r\n\ Constructor\ for\ the\ TicTacToeGame.\ \r\n\ Inits\ the\ board\ array\ as\ a\ 3x3\ array\r\n\ and\ marked\ array\ as\ a\ 3x3\ array.\r\n\ Inits\ the\ GUI\ for\ the\ game\ as\ well.\r\n\ \r\n
+comment1.params=
+comment1.target=boolean\ checkWinner()
+comment1.text=\r\n\ \ Method\ that\ combines\ the\ three\ other\ check\ methods\ to\ check\r\n\ \ for\ a\ winner\ with\ a\ boolean\ value.\r\n\ \ \r\n\ \ @return\ boolean\r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ checkRow()
+comment2.text=\r\n\ Method\ checking\ the\ rows\ for\ a\ winner.\r\n\ \r\n\ @return\ boolean\r\n\ \r\n
+comment3.params=
+comment3.target=boolean\ checkCol()
+comment3.text=\r\n\ Method\ to\ check\ the\ columns\ for\ a\ winner.\r\n\ \r\n\ @return\ boolean\r\n\ \r\n
+comment4.params=
+comment4.target=boolean\ checkDiag()
+comment4.text=\r\n\ Method\ to\ check\ the\ diagonals\ for\ a\ winner.\r\n\ \r\n\ @return\ boolean\r\n\ \r\n
+comment5.params=m1\ m2\ m3
+comment5.target=boolean\ checker(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Method\ used\ by\ the\ check\ methods\ to\ cycle\ through\ the\r\n\ array\ and\ check\ for\ any\ 3\ in\ a\ row\ of\ 'x's\ or\ 'o's.\r\n\ \r\n\ @return\ boolean\r\n\ \r\n
+comment6.params=location\ xo
+comment6.target=boolean\ markSquare(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Method\ containing\ a\ collection\ of\ if\ statements\ to\ be\ given\r\n\ a\ location\ in\ english.\ It\ matches\ the\ given\ statements\ to\ a\ set\r\n\ position\ in\ the\ array.\ It\ is\ also\ passed\ a\ value\ of\ 'x'\ or\ 'o'\r\n\ for\ which\ player\ is\ currently\ playing.\ It\ also\ contains\ a\ check\r\n\ for\ whether\ or\ not\ the\ square\ seleted\ is\ already\ marked\ or\ not.\r\n\ If\ not,\ returns\ false.\r\n\ \r\n\ @return\ boolean\r\n\ @param\r\n\ \r\n
+comment7.params=
+comment7.target=void\ reset()
+comment7.text=\r\n\ Method\ to\ reset\ and\ clear\ the\ board\ and\ marked\ arrays.\r\n\ \r\n
+numComments=8
